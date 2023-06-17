@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 </head>
 <body>
     <header class="header">
@@ -14,8 +16,8 @@
             <img src="/img/logo negro.webp" alt="">
         </div>
         <nav class="header__nav">
-            <a class="header__enlace" href="">Inicio</a>
-            <a class="header__enlace" href="">Sobre Nosotros</a>
+            <a class="header__enlace activo" href="">Inicio</a>
+            <a class="header__enlace" href="nosotros.html">Sobre Nosotros</a>
             <a class="header__enlace" href="">Portafolio</a>
             <a class="header__enlace" href="">Contacto</a>
         </nav>
@@ -64,24 +66,25 @@
             <div class="contact__info">
                 <div class="contact__text">
                     <h4>PONTE EN CONTACTO</h4>
-                    <div class="contact__direccion">
-                        <p>Teodoro Garcia 2425, Capital Federal</p>
-                        <p>Buenos Aires - Argentina</p>
-                    </div>
                     <div class="contact__tel">
-                        <p>+54 11 4076 5697</p>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i><span>+54 9 11 4076 5697</span></a>
                     </div>
                     <div class="contact__email">
-                        <a href="mailto:piccolowood.studio@gmail.com">piccolowood.studio@gmail.com</a>
+                        <a href="mailto:piccolowood.studio@gmail.com"><i class="fa-solid fa-envelope"></i><span>piccolowood.studio@gmail.com</span></a>
                     </div>
                     <div class="contact__icon">
-                        <a href="https://www.instagram.com/piccolowoodstudio/" target="_blank"><i class="fa-brands fa-instagram" style="color: #666666;"></i></a>
+                        <a href="https://www.instagram.com/piccolowoodstudio/" target="_blank"><i class="fa-brands fa-instagram"></i><span>@piccolowoodstudio</span></a>
                     </div>
                 </div>
                 
             </div>
-            <div class="contact__form">
-                <p>aca va el form</p>
+            <div class="contact__map">
+                <h2 class="contact__header">Donde Estamos</h2>
+                <div id="mapa" class="contact__mapa"></div>
+                <div class="contact__direccion">
+                    <p>Seisman Pl, Albert Park VIC 3206</p>
+                    <p>Melbourne -  Australia</p>
+                </div>
             </div>
         </article>
     </main>
@@ -91,5 +94,6 @@
         <p>©2023 por Piccolo Wood Studio.</p>
     </footer>
 </body>
+<script src="app.js"></script>
 <script src="https://kit.fontawesome.com/1aecb6a27a.js" crossorigin="anonymous"></script>
 </html>
