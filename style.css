@@ -459,7 +459,7 @@ template {
 .services__imgs {
   display: flex;
 }
-@media (max-width: 380px) {
+@media (max-width: 430px) {
   .services__imgs {
     flex-direction: column;
     height: 100%;
