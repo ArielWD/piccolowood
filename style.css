@@ -864,7 +864,7 @@ footer p {
   align-items: center;
   justify-content: center;
   position: relative;
-  transition: scale 200ms ease-in;
+  transition: scale 600ms ease-in;
 }
 .portafolio__project h3 {
   font-size: 2rem;
@@ -892,8 +892,8 @@ footer p {
 }
 
 .active .portafolio__project {
-  scale: 0.8;
-  transition: scale 200ms ease-in;
+  scale: 0.7;
+  transition: scale 600ms ease-in;
 }
 
 /*# sourceMappingURL=style.css.map */

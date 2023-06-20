@@ -25,8 +25,9 @@ const portafolio = document.querySelector('.portafolio')
 scrolling.onscroll = () => {
   if (window.scrollY > 950) {
     portafolio.classList.add('active')
+
     setTimeout(() => {
       portafolio.classList.remove('active')
-    }, 400)
+    }, 300)
   }
 }
