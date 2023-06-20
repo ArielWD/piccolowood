@@ -22,12 +22,14 @@ if (document.querySelector('#mapa')) {
 const scrolling = document.querySelector('body')
 const portafolio = document.querySelector('.portafolio')
 
-scrolling.onscroll = () => {
-  if (window.scrollY > 950) {
-    portafolio.classList.add('active')
+if (portafolio) {
+  scrolling.onscroll = () => {
+    if (window.scrollY > 950) {
+      portafolio.classList.add('active')
 
-    setTimeout(() => {
-      portafolio.classList.remove('active')
-    }, 300)
+      setTimeout(() => {
+        portafolio.classList.remove('active')
+      }, 300)
+    }
   }
 }

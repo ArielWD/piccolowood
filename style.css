@@ -510,6 +510,7 @@ template {
   background: url(../../img/services1.webp);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   position: relative;
 }
 @media (max-width: 770px) {
@@ -519,7 +520,7 @@ template {
   }
 }
 .services__arquitectura:hover {
-  background-size: 100.5%;
+  background-size: 124%;
 }
 .services__remodelaciones {
   margin: 0;
@@ -537,7 +538,7 @@ template {
   }
 }
 .services__remodelaciones:hover {
-  background-size: 100.5%;
+  background-size: 132%;
 }
 .services__remodelaciones h4, .services__remodelaciones p {
   color: #000;
@@ -618,8 +619,11 @@ template {
   width: 50%;
 }
 @media (max-width: 770px) {
+  .galery__wrapper:hover {
+    animation: slide2 18s infinite;
+  }
   .galery__wrapper img {
-    width: 48%;
+    width: 90%;
   }
 }
 .galery__enlace {
@@ -644,7 +648,18 @@ template {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(-185%);
+    transform: translateX(-195%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slide2 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-430%);
   }
   100% {
     transform: translateX(0);
