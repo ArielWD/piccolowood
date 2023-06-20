@@ -2,16 +2,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio|Piccolo Wood</title>
+    <title>Portfolio|Piccolo Wood</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <header class="header">
         <div class="header__logo">
-            <img loading="lazy" src="/img/logo negro.webp" alt="Logo piccolo wood">
+            <picture>
+                <source srcset="/img/logo/logo_negro.avif" type="image/avif">
+                <source srcset="/img/logo/logo_negro.webp" type="image/webp">
+                <img loading="lazy" src="/img/logo/logo_negro.png" alt="Logo piccolo wood">
+            </picture>
         </div>
         <nav class="header__nav">
             <a class="header__enlace" href="/index.html">Inicio</a>
@@ -22,7 +26,7 @@
     </header>
     <main>
         <div class="inicio container-sm">
-            <h2 class="inicio__header">Nuestro portafolio</h2>
+            <h2 class="inicio__header">Nuestro portfolio</h2>
             <div class="inicio__descripcion">
                 <p>
                     En nuestra página web, presentamos una selección de proyectos que reflejan parte de nuestra experiencia y habilidades en arquitectura.
@@ -35,9 +39,81 @@
                 </p>
             </div>
         </div>
-        <section class="portafolio">
+        <div class="portafolio container">
+
+            <div class="portafolio__project">
+                <h3>Casa Alpinside</h3>
+                <picture>
+                    <source srcset="/img/portfolio/CASA_ALPINSIDE/alpinside_square.avif" type="image/avif">
+                    <source srcset="/img/portfolio/CASA_ALPINSIDE/alpinside_square.webp" type="image/webp">
+                <img loading="lazy" src="/img/portfolio/CASA_ALPINSIDE/alpinside_square.png" alt="Proyecto Alpinside">
+                </picture>
+            </div>
+
+            <div class="portafolio__project">
+                <h3>Casa Patio</h3>
+                <picture>
+                    <source srcset="/img/portfolio/CASA_PATIO/patio_house_square.avif" type="image/avif">
+                    <source srcset="/img/portfolio/CASA_PATIO/patio_house_square.webp" type="image/webp">
+                <img loading="lazy" src="/img/portfolio/CASA_PATIO/patio_house_square.jpg" alt="Proyecto Casa Patio">
+                </picture>
+            </div>
+
+            <div class="portafolio__project">
+                <h3>O House</h3>
+                <picture>
+                    <source srcset="/img/portfolio/O-HOUSE/o_house_square.webp" type="image/webp">
+                    <img loading="lazy" src="/img/portfolio/O-HOUSE/o_house_square.jpg" alt="Caso O">
+                </picture>
+            </div>
         
-    </section>
+            <div class="portafolio__project">
+                <h3>Byrsa Acropolis</h3>
+                <picture>
+                    <source srcset="/img/portfolio/PROYECTO_BYRSA_ACROPOLIS/byrsa_square.webp" type="image/webp">
+                    <img loading="lazy" src="/img/portfolio/PROYECTO_BYRSA_ACROPOLIS/byrsa_square.jpg" alt="Byrsa Acropolis">
+                </picture>
+            </div>
+
+            <div class="portafolio__project">
+                <h3>Proyecto Quzhou</h3>
+                <picture>
+                    <source srcset="/img/portfolio/PROYECTO_QUZHOU/proyecto_quzhou_square.webp" type="image/webp">
+                    <img loading="lazy" src="/img/portfolio/PROYECTO_QUZHOU/proyecto_quzhou_square.jpg" alt="Proyecto Quzhou">
+                </picture>
+            </div>
+
+            <div class="portafolio__project">
+                <h3>Proyecto Tattersall</h3>
+                <picture>
+                    <source srcset="/img/portfolio/PROYECTO_TATTERSALL/proyecto_tattersall_square.webp" type="image/webp">
+                    <img loading="lazy" src="/img/portfolio/PROYECTO_TATTERSALL/proyecto_tattersall_square.jpg" alt="Proyecto Tattersall">
+                </picture>
+            </div>
+
+            <div class="portafolio__project">
+                <h3>Proyecto Walking</h3>
+                <picture>
+                    <source srcset="/img/portfolio/PROYECTO_WALKING/walking_square.webp" type="image/webp">
+                    <img loading="lazy" src="/img/portfolio/PROYECTO_WALKING/walking_square.jpg" alt="Proyecto Walking">
+                </picture>
+            </div>
+
+            <div class="portafolio__project">
+                <h3>Vivienda Chascomus</h3>
+                <picture>
+                    <source srcset="/img/portfolio/VIVIENDA_CHASCOMUS/chascomus_square.webp" type="image/webp">
+                    <img loading="lazy" src="/img/portfolio/VIVIENDA_CHASCOMUS/chascomus_square.jpg" alt="Vivienda Chascomus">
+                </picture>
+            </div>
+            <div class="portafolio__project">
+                <h3>Y House</h3>
+                <picture>
+                    <source srcset="/img/portfolio/Y-HOUSE/y-house-square.webp" type="image/webp">
+                    <img loading="lazy" src="/img/portfolio/Y-HOUSE/y-house-square.jpg" alt="Y house">
+                </picture>
+            </div>
+        </div>
     </main>
     <footer>
         <h3>piccolo wood studio</h3>

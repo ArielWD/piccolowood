@@ -4,14 +4,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros|Piccolo Wood</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Nunito+Sans:wght@300;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <header class="header">
         <div class="header__logo">
-            <img loading="lazy" src="/img/logo negro.webp" alt="Logo piccolo wood">
+            <picture>
+                <source srcset="/img/logo/logo_negro.avif" type="image/avif">
+                <source srcset="/img/logo/logo_negro.webp" type="image/webp">
+                <img loading="lazy" src="/img/logo/logo_negro.png" alt="Logo piccolo wood">
+            </picture>
+            
         </div>
         <nav class="header__nav">
             <a class="header__enlace" href="/index.html">Inicio</a>
@@ -39,7 +44,11 @@
             <h2>Nuestro equipo</h2>
             <div class="nosotros__grid">
                 <div class="nosotros__box-grid">
-                    <img loading="lazy" class="nosotros__img" src="/img/Gabrielle.webp" alt="foto Gabriele mazza">
+                    <picture>
+                        <source srcset="/img/nosotros/gabriele_mazza.avif" type="image/avif">
+                        <source srcset="/img/nosotros/gabriele_mazza.webp" type="image/webp">
+                        <img class="nosotros__img" loading="lazy" src="/img/nosotros/gabriele_mazza.jpg" alt="Gabriele Mazza">
+                    </picture>
                     <div class="nosotros__texto">  
                     <p class="nosotros__actitudes">
                         Arquitecto y Renderista
@@ -57,7 +66,11 @@
                   
                 </div>
                 <div class="nosotros__box-grid">
-                    <img loading="lazy" class="nosotros__img" src="/img/Yarieth.webp" alt="foto Yarieth Hernandez">
+                    <picture>
+                        <source srcset="/img/nosotros/yarieth_hernadez.avif" type="image/avif">
+                        <source srcset="/img/nosotros/yarieth_hernadez.webp" type="image/webp">
+                        <img class="nosotros__img" loading="lazy" src="/img/nosotros/yarieth_hernadez.jpg" alt="Gabriele Mazza">
+                    </picture>
                     <div class="nosotros__texto">
                         <p class="nosotros__actitudes">
                         Arquitecta y Diseñadora UX/UI

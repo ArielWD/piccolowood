@@ -5,15 +5,20 @@
     <title>Inicio|Piccolo Wood</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <link rel="stylesheet" href="/style.css">
+
 </head>
 <body>
     <header class="header">
         <div class="header__logo">
-            <img loading="lazy" src="/img/logo negro.webp" alt="Logo piccolo wood">
+            <picture>
+                <source srcset="/img/logo/logo_negro.avif" type="image/avif">
+                <source srcset="/img/logo/logo_negro.webp" type="image/webp">
+                <img loading="lazy" src="/img/logo/logo_negro.png" alt="Logo piccolo wood">
+            </picture>
         </div>
         <nav class="header__nav">
             <a class="header__enlace activo" href="#">Inicio</a>
@@ -59,12 +64,12 @@
             </div>
             <div class="galery__grid" id="images">
                 <div class="galery__wrapper">
-                    <img src="/img/galery1.webp" alt="Galeria Piccolo">
-                    <img src="/img/galery2.webp" alt="Galeria Piccolo">
-                    <img src="/img/galery3.webp" alt="Galeria Piccolo">
-                    <img src="/img/galery4.webp" alt="Galeria Piccolo">
-                    <img src="/img/galery5.webp" alt="Galeria Piccolo">
-                    <img src="/img/galery6.webp" alt="Galeria Piccolo">
+                    <img src="/img/portfolio/CASA_PATIO/patio_house2.png" alt="Galeria Piccolo">
+                    <img src="/img/portfolio/CASA_ALPINSIDE/alpinside_1.png" alt="Galeria Piccolo">
+                    <img src="/img/portfolio/O-HOUSE/o_house1.jpg" alt="Galeria Piccolo">
+                    <img src="/img/portfolio/PROYECTO_BYRSA_ACROPOLIS/byrsa2.jpg" alt="Galeria Piccolo">
+                    <img src="/img/portfolio/PROYECTO_TATTERSALL/proyecto_tattersall3.jpg" alt="Galeria Piccolo">
+                    <img src="/img/portfolio/PROYECTO_WALKING/walking4.jpg" alt="Galeria Piccolo">
                 </div>
             </div>
             <div class="galery__enlace"><a href="/pages/portafolio.html">Ver Mas</a></div>

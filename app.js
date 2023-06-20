@@ -18,3 +18,15 @@ if (document.querySelector('#mapa')) {
     `)
     .openPopup()
 }
+
+const scrolling = document.querySelector('body')
+const portafolio = document.querySelector('.portafolio')
+
+scrolling.onscroll = () => {
+  if (window.scrollY > 950) {
+    portafolio.classList.add('active')
+    setTimeout(() => {
+      portafolio.classList.remove('active')
+    }, 400)
+  }
+}
