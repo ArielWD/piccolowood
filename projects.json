@@ -1,0 +1,137 @@
+[
+    {
+        "id":"0",
+        "nombre":"Y House",
+        "img_titulo":"/img/portfolio/Y-HOUSE/y-house2.jpg",
+        "img_titulo2":"/img/portfolio/Y-HOUSE/y-house2",
+        "fecha":"Mayo 2023",
+        "ubicacion": "Ciudad Autonoma de Buenos Aires",
+        "tipo":"Diseño y Propuesta de vivienda",
+        "descripcion":"Proyecto propio de Piccolo Wood La Y House es un proyecto de casa unifamiliar que combina armoniosamente la funcionalidad con una estética contemporánea y una conexión íntima con la naturaleza. Diseñada para satisfacer las necesidades de una familia activa, se caracteriza por su permeabilidad y la presencia de elementos naturales en su exterior, como vegetación, madera y agua. Su ubicación estratégica entre medianeras aprovecha la orientación del lote y favorece la iluminación natural.Con una distribución espacial bien planificada, la planta baja alberga la zona pública, mientras que la planta alta cuenta con la zona privada. La decoración interior se inspira en el estilo nórdico, con una paleta de colores neutros, texturas cálidas y la integración de materiales naturales como la madera y la piedra",
+        "imgs":{
+            "0":"",
+            "1":"",
+            "2":""
+        }
+    },
+    {
+        "id":"1",
+        "nombre":"O House",
+        "img_titulo":"/img/portfolio/O-HOUSE/o_house1.jpg",
+        "img_titulo2":"/img/portfolio/O-HOUSE/o_house1",
+        "fecha":"Mayo 2023",
+        "ubicacion": "",
+        "tipo":"Diseño y Propuesta de vivienda",
+        "descripcion":"Proyecto propio de Piccolo Wood La O House es un proyecto de vivienda subterránea de forma circular que se integra armónicamente con el terreno y ofrece espacios interiores y exteriores bien definidos. Diseñada para una pareja en busca de tranquilidad y ocasiones sociales, la casa se caracteriza por su diseño art déco, con una paleta de colores en tonos tierra y verdes, y la utilización de materiales como el hormigón a la vista y la madera.Los dos patios estratégicamente ubicados permiten la entrada de luz natural y ventilación cruzada, creando una atmósfera de privacidad y conexión con la naturaleza, mientras que el mobiliario contemporáneo y sofisticado completa el ambiente acogedor y elegante de la vivienda.",
+        "imgs":{
+            "0":"",
+            "1":"",
+            "2":""
+        }
+    },
+    {
+        "id":"2",
+        "nombre":"Proyecto Tattersall",
+        "img_titulo":"/img/portfolio/PROYECTO_TATTERSALL/proyecto_tattersall1.jpg",
+        "img_titulo2":"/img/portfolio/PROYECTO_TATTERSALL/proyecto_tattersall1",
+        "fecha":"Junio 2023",
+        "ubicacion": "Tattersall de Palermo - Buenos Aires",
+        "tipo":"Renders",
+        "descripcion":"Renders de concurso para Arquitectos del Sur",
+        "imgs":{
+            "0":"",
+            "1":"",
+            "2":""
+        }
+    },
+    {
+        "id":"3",
+        "nombre":"Casa Patio",
+        "img_titulo":"/img/portfolio/CASA_PATIO/patio_house2.png",
+        "img_titulo2":"/img/portfolio/CASA_PATIO/patio_house2",
+        "fecha":"Abril 2023",
+        "ubicacion": "",
+        "tipo":"Renders",
+        "descripcion":"Renders para Gameplan Architecs",
+        "imgs":{
+            "0":"",
+            "1":"",
+            "2":""
+        }
+    },
+    {
+        "id":"4",
+        "nombre":"Vivienda Chascomus",
+        "img_titulo":"/img/portfolio/VIVIENDA_CHASCOMUS/chascomus3.jpg",
+        "img_titulo2":"/img/portfolio/VIVIENDA_CHASCOMUS/chascomus3",
+        "fecha":"Proyecto 2023",
+        "ubicacion": "",
+        "tipo":"Renders",
+        "descripcion":"Renders para Gameplan Architecs",
+        "imgs":{
+            "0":"",
+            "1":"",
+            "2":""
+        }
+    },
+    {
+        "id":"5",
+        "nombre":"Casa Alpinside",
+        "img_titulo":"/img/portfolio/CASA_ALPINSIDE/alpinside.png",
+        "img_titulo2":"/img/portfolio/CASA_ALPINSIDE/alpinside",
+        "fecha":"Proyecto 2023",
+        "ubicacion": "",
+        "tipo":"Renders",
+        "descripcion":"Renders para Gameplan Architecs",
+        "imgs":{
+            "0":"",
+            "1":"",
+            "2":""
+        }
+    },
+    {
+        "id":"6",
+        "nombre":"Byrsa Acropolis",
+        "img_titulo":"/img/portfolio/PROYECTO_BYRSA_ACROPOLIS/byrsa5.jpg",
+        "img_titulo2":"/img/portfolio/PROYECTO_BYRSA_ACROPOLIS/byrsa5",
+        "fecha":"Enero 2023",
+        "ubicacion": "",
+        "tipo":"Renders",
+        "descripcion":"Renders para concurso para Teñuz para Gameplan Architects",
+        "imgs":{
+            "0":"",
+            "1":"",
+            "2":""
+        }
+    },
+    {
+        "id":"7",
+        "nombre":"Proyecto Quzhou",
+        "img_titulo":"/img/portfolio/PROYECTO_QUZHOU/proyecto_quzhou5.jpg",
+        "img_titulo2":"/img/portfolio/PROYECTO_QUZHOU/proyecto_quzhou5",
+        "fecha":"Proyecto 2023",
+        "ubicacion": "",
+        "tipo":"Renders",
+        "descripcion":"Renders de concurso en China para Gameplan Architects",
+        "imgs":{
+            "0":"",
+            "1":"",
+            "2":""
+        }
+    },
+    {
+        "id":"8",
+        "nombre":"Proyecto Walking",
+        "img_titulo":"/img/portfolio/PROYECTO_WALKING/walking4.jpg",
+        "img_titulo2":"/img/portfolio/PROYECTO_WALKING/walking4",
+        "fecha":"Proyecto 2023",
+        "ubicacion": "",
+        "tipo":"Renders",
+        "descripcion":"Renders para Gameplan Architecs",
+        "imgs":{
+            "0":"",
+            "1":"",
+            "2":""
+        }
+    }
+]

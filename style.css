@@ -622,17 +622,19 @@ template {
   width: auto;
 }
 .galery__wrapper:hover {
-  animation: slide 25s infinite;
+  animation: slide 30s infinite;
 }
 .galery__wrapper img {
-  width: 50%;
+  height: 30rem;
+  width: 100%;
 }
 @media (max-width: 770px) {
   .galery__wrapper:hover {
-    animation: slide2 18s infinite;
+    animation: slide2 30s infinite;
   }
   .galery__wrapper img {
-    width: 90%;
+    height: 20rem;
+    width: 100%;
   }
 }
 .galery__enlace {
@@ -657,7 +659,7 @@ template {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(-195%);
+    transform: translateX(-270%);
   }
   100% {
     transform: translateX(0);
@@ -668,7 +670,7 @@ template {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(-430%);
+    transform: translateX(-725%);
   }
   100% {
     transform: translateX(0);
