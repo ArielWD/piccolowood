@@ -590,7 +590,7 @@ template {
     align-items: center;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 430px) {
   .services__texto {
     top: -50;
   }
@@ -610,7 +610,7 @@ template {
 .services__enlace:hover {
   background-color: rgb(181, 141, 116);
 }
-@media (max-width: 380px) {
+@media (max-width: 430px) {
   .services__enlace {
     top: 250;
   }
