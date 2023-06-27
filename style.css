@@ -24,7 +24,7 @@ a {
   width: 35%;
   margin: auto;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .container-sm {
     width: 60%;
   }
@@ -39,7 +39,7 @@ a {
   width: 35%;
   margin: auto;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .container {
     width: 40%;
   }
@@ -376,7 +376,7 @@ template {
   display: flex;
   justify-content: space-evenly;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .header__nav {
     flex-direction: column;
     align-items: center;
@@ -397,12 +397,12 @@ template {
   background-color: rgb(181, 141, 116);
   color: #fff;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .header__enlace {
     margin-bottom: 0.3rem;
   }
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .header__menu {
     opacity: 0;
     position: fixed;
@@ -442,7 +442,7 @@ template {
     background-size: 100.5%;
   }
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .welcome {
     height: 30%;
   }
@@ -472,7 +472,7 @@ template {
 .welcome__texto p {
   font-size: 1.5rem;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .welcome__texto p {
     display: none;
   }
@@ -502,7 +502,7 @@ template {
 .services__header p {
   color: #666;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .services__header {
     height: fit-content;
     margin: 1rem;
@@ -535,9 +535,13 @@ template {
   background-size: cover;
   position: relative;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .services__arquitectura {
     width: 100%;
+  }
+}
+@media (max-width: 430px) {
+  .services__arquitectura {
     height: 50%;
   }
 }
@@ -551,9 +555,13 @@ template {
   background-size: cover;
   position: relative;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .services__remodelaciones {
     width: 100%;
+  }
+}
+@media (max-width: 430px) {
+  .services__remodelaciones {
     height: 50%;
   }
 }
@@ -571,7 +579,7 @@ template {
   font-size: 1.5rem;
   margin: 1rem;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .services__texto {
     top: 0;
     left: 0;
@@ -621,7 +629,7 @@ template {
   font-size: 2.7rem;
   margin: 1rem;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .galery__header {
     height: auto;
     margin: 1rem;
@@ -647,7 +655,7 @@ template {
   height: 30rem;
   width: 100%;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .galery__wrapper:hover {
     animation: slide2 30s infinite;
   }
@@ -702,7 +710,7 @@ template {
   height: 100%;
   max-height: 35rem;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .contact {
     flex-direction: column;
     height: 100%;
@@ -717,7 +725,7 @@ template {
   flex-direction: column;
   align-items: center;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .contact__info {
     width: 100%;
     height: 100%;
@@ -728,7 +736,7 @@ template {
   width: 66.6%;
   background-color: #ececec;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .contact__map {
     width: 100%;
     height: 35rem;
@@ -772,7 +780,7 @@ template {
   margin: 1rem 3rem 1rem 3rem;
   z-index: 15;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .contact__mapa {
     margin: 1rem;
   }
@@ -793,7 +801,7 @@ template {
 footer {
   text-align: center;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   footer {
     position: relative;
     top: 10rem;
@@ -817,7 +825,7 @@ footer p {
   margin: auto;
   width: 45%;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .nosotros {
     width: 80%;
   }
@@ -835,7 +843,7 @@ footer p {
   grid-column-gap: 3rem;
   position: relative;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .nosotros__grid {
     display: flex;
     flex-direction: column;
@@ -874,7 +882,7 @@ footer p {
   font-size: 1.5rem;
   color: #000;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .nosotros__icono {
     position: static;
   }
@@ -928,7 +936,7 @@ footer p {
 .portafolio__project img {
   width: 100%;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .portafolio__project h3 {
     width: 30%;
     font-size: 1.2rem;
@@ -968,7 +976,7 @@ footer p {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .modal__content {
     flex-direction: column;
     margin-top: 4rem;
@@ -985,7 +993,7 @@ footer p {
   font-size: 1.5rem;
   margin: 0;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .modal__info {
     width: 100%;
     gap: 1rem;
@@ -1015,7 +1023,7 @@ footer p {
   line-height: 1.5;
   text-align: center;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .modal__descripcion {
     width: 95%;
   }
@@ -1031,7 +1039,7 @@ footer p {
   width: 100%;
   height: 40rem;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .modal__imgs img {
     height: auto;
   }
@@ -1113,7 +1121,7 @@ footer p {
 .menu {
   display: none;
 }
-@media (max-width: 770px) {
+@media (max-width: 775px) {
   .menu {
     background-color: rgb(181, 141, 116);
     border: none;
