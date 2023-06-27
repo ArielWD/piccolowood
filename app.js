@@ -1,3 +1,17 @@
+const menu = document.querySelector('.menu')
+
+menu.addEventListener('click', openMenu)
+
+function openMenu () {
+  document.body.classList.toggle('open')
+  menu.setAttribute('aria-expanded', document.body.classList.contains('open'))
+  if (document.body.classList.contains('open')) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = 'auto'
+  }
+}
+
 if (document.querySelector('#mapa')) {
   const lat = -37.84171647593663
   const lng = 144.94617263048812
