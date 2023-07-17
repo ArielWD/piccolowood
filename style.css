@@ -812,12 +812,6 @@ template {
 footer {
   text-align: center;
 }
-@media (max-width: 775px) {
-  footer {
-    position: relative;
-    top: 10rem;
-  }
-}
 footer h3 {
   text-transform: uppercase;
   font-size: 1.5rem;
@@ -849,8 +843,9 @@ footer p {
   font-size: 4rem;
 }
 @media (max-width: 775px) {
-  .nosotros__equipo {
-    font-size: 2rem;
+  .nosotros__equipo h2 {
+    margin-top: 5rem;
+    font-size: 2.3rem;
   }
 }
 .nosotros__grid {
