@@ -414,6 +414,7 @@ template {
   .header__menu a {
     margin: 1.5rem;
     color: #fff;
+    text-align: center;
   }
 }
 
@@ -477,10 +478,10 @@ template {
     display: none;
   }
   .welcome__texto h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .welcome__texto h3 {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 }
 
@@ -583,16 +584,19 @@ template {
   .services__texto {
     top: 0;
     left: 0;
-    height: 25rem;
+    height: 15rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
   }
 }
 @media (max-width: 430px) {
   .services__texto {
-    top: -50;
+    position: relative;
+  }
+  .services__texto h4 {
+    font-size: 1rem;
   }
 }
 .services__enlace {
@@ -612,7 +616,14 @@ template {
 }
 @media (max-width: 430px) {
   .services__enlace {
-    top: 250;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: unset;
+    left: unset;
+    margin: auto;
   }
 }
 
@@ -888,10 +899,20 @@ footer p {
   }
 }
 
+@media (max-width: 775px) {
+  .inicio {
+    margin-top: -3rem;
+  }
+}
 .inicio__header {
   color: rgb(181, 141, 116);
   font-size: 4rem;
   text-align: center;
+}
+@media (max-width: 775px) {
+  .inicio__header {
+    font-size: 2rem;
+  }
 }
 .inicio__sub-header {
   text-align: center;
@@ -903,6 +924,12 @@ footer p {
   text-align: center;
   line-height: 2;
   font-size: 1rem;
+}
+@media (max-width: 775px) {
+  .inicio__descripcion {
+    line-height: 1.5;
+    font-size: 0.8rem;
+  }
 }
 .inicio__descripcion p {
   margin-bottom: 3rem;
@@ -1129,10 +1156,11 @@ footer p {
     display: flex;
     padding: 0;
     position: fixed;
-    top: 20;
-    left: 20;
+    top: 15;
+    left: 15;
     border-radius: 1rem;
     z-index: 21;
+    scale: 0.6;
   }
 }
 
