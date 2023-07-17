@@ -848,6 +848,11 @@ footer p {
   color: rgb(181, 141, 116);
   font-size: 4rem;
 }
+@media (max-width: 775px) {
+  .nosotros__equipo {
+    font-size: 2rem;
+  }
+}
 .nosotros__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
