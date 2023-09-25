@@ -365,6 +365,7 @@ template {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 3rem;
 }
 .header__logo {
   text-align: center;
@@ -661,7 +662,7 @@ template {
   gap: 0.2rem;
 }
 .galery__wrapper:hover {
-  animation: slide 30s infinite;
+  animation: slide 50s infinite;
 }
 .galery__wrapper img {
   height: 30rem;
@@ -669,7 +670,7 @@ template {
 }
 @media (max-width: 775px) {
   .galery__wrapper:hover {
-    animation: slide2 30s infinite;
+    animation: slide2 50s infinite;
   }
   .galery__wrapper img {
     height: 20rem;
@@ -700,18 +701,13 @@ template {
 }
 
 .contact {
-  margin-top: 0.3rem;
+  margin-top: 7rem;
   width: 100vw;
   background-color: #585858;
   color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.contact__header {
-  font-size: 2rem;
-  text-align: center;
-  text-transform: uppercase;
 }
 .contact__text {
   width: 90%;
