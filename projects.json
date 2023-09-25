@@ -5,7 +5,8 @@
         "fecha":"Mayo 2023",
         "ubicacion": "Ciudad Autonoma de Buenos Aires",
         "tipo":"Diseño y Propuesta de vivienda",
-        "descripcion":"Proyecto propio de Piccolo Wood.; La Y House es un proyecto de casa unifamiliar que combina armoniosamente la funcionalidad con una estética contemporánea y una conexión íntima con la naturaleza. Diseñada para satisfacer las necesidades de una familia activa, se caracteriza por su permeabilidad y la presencia de elementos naturales en su exterior, como vegetación, madera y agua. Su ubicación estratégica entre medianeras aprovecha la orientación del lote y favorece la iluminación natural.; Con una distribución espacial bien planificada, la planta baja alberga la zona pública, mientras que la planta alta cuenta con la zona privada. La decoración interior se inspira en el estilo nórdico, con una paleta de colores neutros, texturas cálidas y la integración de materiales naturales como la madera y la piedra",
+        "titulo":"Proyecto propio de Piccolo Wood.",
+        "descripcion":" La Y House es un proyecto de casa unifamiliar que combina armoniosamente la funcionalidad con una estética contemporánea y una conexión íntima con la naturaleza. Diseñada para satisfacer las necesidades de una familia activa, se caracteriza por su permeabilidad y la presencia de elementos naturales en su exterior, como vegetación, madera y agua. Su ubicación estratégica entre medianeras aprovecha la orientación del lote y favorece la iluminación natural.;; Con una distribución espacial bien planificada, la planta baja alberga la zona pública, mientras que la planta alta cuenta con la zona privada. La decoración interior se inspira en el estilo nórdico, con una paleta de colores neutros, texturas cálidas y la integración de materiales naturales como la madera y la piedra",
         "imgs":{
             "0":"/img/portfolio/Y-HOUSE/y-house2",
             "1":"/img/portfolio/Y-HOUSE/y-house3",
@@ -23,7 +24,8 @@
         "fecha":"Mayo 2023",
         "ubicacion": "",
         "tipo":"Diseño y Propuesta de vivienda",
-        "descripcion":"Proyecto propio de Piccolo Wood.; La O House es un proyecto de vivienda subterránea de forma circular que se integra armónicamente con el terreno y ofrece espacios interiores y exteriores bien definidos. Diseñada para una pareja en busca de tranquilidad y ocasiones sociales, la casa se caracteriza por su diseño art déco, con una paleta de colores en tonos tierra y verdes, y la utilización de materiales como el hormigón a la vista y la madera.; Los dos patios estratégicamente ubicados permiten la entrada de luz natural y ventilación cruzada, creando una atmósfera de privacidad y conexión con la naturaleza, mientras que el mobiliario contemporáneo y sofisticado completa el ambiente acogedor y elegante de la vivienda.",
+        "titulo":"Proyecto propio de Piccolo Wood.",
+        "descripcion":"La O House es un proyecto de vivienda subterránea de forma circular que se integra armónicamente con el terreno y ofrece espacios interiores y exteriores bien definidos. Diseñada para una pareja en busca de tranquilidad y ocasiones sociales, la casa se caracteriza por su diseño art déco, con una paleta de colores en tonos tierra y verdes, y la utilización de materiales como el hormigón a la vista y la madera.;; Los dos patios estratégicamente ubicados permiten la entrada de luz natural y ventilación cruzada, creando una atmósfera de privacidad y conexión con la naturaleza, mientras que el mobiliario contemporáneo y sofisticado completa el ambiente acogedor y elegante de la vivienda.",
         "imgs":{
             "0":"/img/portfolio/O-HOUSE/o_house1",
             "1":"/img/portfolio/O-HOUSE/o_house2",

@@ -12,27 +12,6 @@ function openMenu () {
   }
 }
 
-if (document.querySelector('#mapa')) {
-  const lat = -37.84171647593663
-  const lng = 144.94617263048812
-  const zoom = 17
-
-  // eslint-disable-next-line no-undef
-  const map = L.map('mapa').setView([lat, lng], zoom)
-
-  // eslint-disable-next-line no-undef
-  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-  }).addTo(map)
-
-  // eslint-disable-next-line no-undef
-  L.marker([lat, lng]).addTo(map)
-    .bindPopup(`
-        <h2 class="mapa__heading">Piccolo Wood</h2>
-    `)
-    .openPopup()
-}
-
 const scrolling = document.querySelector('body')
 const portafolio = document.querySelector('.portafolio')
 
@@ -85,9 +64,7 @@ function createModal (project) {
   const modal = document.createElement('div')
   modal.classList.add('modal')
   const descripcion = project.descripcion.replace(/;/gi, '</br>')
-  console.log(project.imgs)
   const images = Object.values(project.imgs)
-  console.log(images)
   modal.innerHTML = `      
     <span class="modal__close">&times;</span>
     <div class="modal__content">
@@ -113,6 +90,9 @@ function createModal (project) {
           <a class="slide__next" >❯</a>
           </div>
       <div class="modal__descripcion">
+      ${project.titulo
+        ? `<h4>${project.titulo}</h4>`
+        : ''}
          <p>${descripcion}</p>
       </div>
     </div>

@@ -1,6 +1,8 @@
 scss
+*.map
 package-lock.json
 node_modules
 Readme.md
 .DS_Store
 **/.DS_Store
+
