@@ -367,6 +367,11 @@ template {
   justify-content: center;
   margin-bottom: 3rem;
 }
+@media (max-width: 775px) {
+  .header {
+    margin-bottom: 0;
+  }
+}
 .header__logo {
   text-align: center;
   object-fit: contain;
@@ -435,9 +440,8 @@ template {
 }
 
 .welcome {
-  width: 100vw;
-  height: auto;
-  max-height: 60rem;
+  width: 100%;
+  height: 80vh;
   background: url(../../img/bg-header.webp);
   background-size: cover;
   background-position: center;
@@ -445,7 +449,7 @@ template {
 }
 @media (max-width: 775px) {
   .welcome {
-    height: 30%;
+    height: 25vh;
   }
 }
 .welcome__texto {
@@ -572,8 +576,8 @@ template {
 .services__texto {
   color: #fff;
   position: absolute;
-  top: 200;
-  left: 70;
+  top: 200px;
+  left: 70px;
   text-align: center;
 }
 .services__texto h4 {
@@ -584,10 +588,10 @@ template {
   .services__texto {
     top: 0;
     left: 0;
-    height: 15rem;
+    height: 30vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
   }
 }
@@ -601,8 +605,8 @@ template {
 }
 .services__enlace {
   position: absolute;
-  top: 310;
-  left: 50;
+  top: 310px;
+  left: 50px;
   color: #fff;
   background-color: rgba(223, 214, 208, 0.2549019608);
   padding: 1rem;
@@ -621,9 +625,7 @@ template {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: unset;
-    left: unset;
-    margin: auto;
+    margin: 0 auto 3rem;
   }
 }
 
@@ -702,12 +704,17 @@ template {
 
 .contact {
   margin-top: 7rem;
-  width: 100vw;
+  width: 100%;
   background-color: #585858;
   color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media (max-width: 775px) {
+  .contact {
+    margin-top: 2rem;
+  }
 }
 .contact__text {
   width: 90%;
@@ -849,7 +856,7 @@ footer p a {
 }
 .nosotros__icono {
   position: absolute;
-  bottom: 20;
+  bottom: 20px;
   font-size: 1.5rem;
   color: #000;
 }
@@ -1028,7 +1035,7 @@ footer p a {
 }
 .modal__imgs img {
   width: 100%;
-  height: 40rem;
+  height: 60vh;
 }
 @media (max-width: 775px) {
   .modal__imgs img {
