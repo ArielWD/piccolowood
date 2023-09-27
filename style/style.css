@@ -1213,6 +1213,11 @@ footer p a {
   filter: invert(1);
   width: 50%;
 }
+@media (max-width: 775px) {
+  .pre-load img {
+    width: 100%;
+  }
+}
 
 .load {
   opacity: 0;
