@@ -921,6 +921,9 @@ footer p a {
 .portafolio__project:hover {
   cursor: pointer;
 }
+.portafolio__project:hover img {
+  filter: brightness(0.7);
+}
 .portafolio__project h2 {
   font-size: 2rem;
   color: rgb(181, 141, 116);
@@ -932,6 +935,7 @@ footer p a {
 }
 .portafolio__project img {
   width: 100%;
+  transition: filter 400ms ease;
 }
 @media (max-width: 775px) {
   .portafolio__project h2 {
