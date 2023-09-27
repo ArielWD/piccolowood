@@ -1,5 +1,4 @@
 const preload = document.getElementById('preload')
-console.log(preload.classList)
 if (preload) {
   document.body.style.overflowY = 'hidden'
 
