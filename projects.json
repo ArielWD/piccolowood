@@ -1,6 +1,28 @@
 [
     {
         "id":"0",
+        "nombre":"Pleasing Living",
+        "fecha":"Agosto 2023",
+        "ubicacion": "Ciudad Autonoma de Buenos Aires",
+        "tipo":"Diseño de interiores y renderizado",
+        "titulo":"Proyecto propio de Piccolo Wood.",
+        "descripcion":"Proyecto realizado con la finalidad de asesorar a un cliente para determinar la ubicación de los elementos en el espacio y los materiales y texturas a emplear en los mobiliarios.;; Los asientos fueron ubicados en el espacio para fortalecer el espíritu de encuentro del anfitrión junto a sus invitados. Se buscó que cada asiento tenga visuales distintas a las otras para que, junto al análisis de texturas y materiales, se logren experiencias distintas dentro de un mismo espacio.",
+        "imgs":{
+            "0":"/img/portfolio/pleasing_living/pleasing-living1",
+            "1":"/img/portfolio/pleasing_living/pleasing-living2",
+            "2":"/img/portfolio/pleasing_living/pleasing-living3",
+            "3":"/img/portfolio/pleasing_living/pleasing-living4",
+            "4":"/img/portfolio/pleasing_living/pleasing-living5",
+            "5":"/img/portfolio/pleasing_living/pleasing-living6",
+            "6":"/img/portfolio/pleasing_living/pleasing-living7",
+            "7":"/img/portfolio/pleasing_living/pleasing-living8",
+            "8":"/img/portfolio/pleasing_living/pleasing-living9",
+            "9":"/img/portfolio/pleasing_living/pleasing-living10",
+            "10":"/img/portfolio/pleasing_living/pleasing-living11"
+        }
+    },
+    {
+        "id":"1",
         "nombre":"Y House",
         "fecha":"Mayo 2023",
         "ubicacion": "Ciudad Autonoma de Buenos Aires",
@@ -19,7 +41,7 @@
         }
     },
     {
-        "id":"1",
+        "id":"2",
         "nombre":"O House",
         "fecha":"Mayo 2023",
         "ubicacion": "",
@@ -43,7 +65,7 @@
         }
     },
     {
-        "id":"2",
+        "id":"3",
         "nombre":"Proyecto Tattersall",
         "fecha":"Junio 2023",
         "ubicacion": "Tattersall de Palermo - Buenos Aires",
@@ -57,7 +79,7 @@
         }
     },
     {
-        "id":"3",
+        "id":"4",
         "nombre":"Casa Patio",
         "fecha":"Abril 2023",
         "ubicacion": "",
@@ -76,7 +98,7 @@
         }
     },
     {
-        "id":"4",
+        "id":"5",
         "nombre":"Vivienda Chascomus",
         "fecha":"Proyecto 2023",
         "ubicacion": "",
@@ -92,7 +114,7 @@
         }
     },
     {
-        "id":"5",
+        "id":"6",
         "nombre":"Casa Alpinside",
         "fecha":"Proyecto 2023",
         "ubicacion": "",
@@ -107,7 +129,7 @@
         }
     },
     {
-        "id":"6",
+        "id":"7",
         "nombre":"Byrsa Acropolis",
         "fecha":"Enero 2023",
         "ubicacion": "",
@@ -124,7 +146,7 @@
         }
     },
     {
-        "id":"7",
+        "id":"8",
         "nombre":"Proyecto Quzhou",
         "fecha":"Proyecto 2023",
         "ubicacion": "",
@@ -139,7 +161,7 @@
         }
     },
     {
-        "id":"8",
+        "id":"9",
         "nombre":"Proyecto Walking",
         "fecha":"Proyecto 2023",
         "ubicacion": "",

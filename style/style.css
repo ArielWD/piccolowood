@@ -1011,8 +1011,8 @@ footer p a {
   }
 }
 .modal__descripcion {
-  width: 25%;
-  margin: auto 2rem;
+  width: 30%;
+  margin: auto 0.2rem;
   hyphens: auto;
 }
 .modal__descripcion h4 {
@@ -1075,7 +1075,7 @@ footer p a {
 
 .slide {
   position: relative;
-  margin: auto;
+  margin: auto 2rem;
 }
 .slide__div {
   display: none;
