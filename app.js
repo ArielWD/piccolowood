@@ -1,3 +1,15 @@
+const preload = document.getElementById('preload')
+console.log(preload.classList)
+if (preload) {
+  document.body.style.overflowY = 'hidden'
+
+  setTimeout(() => {
+    preload.classList.add('load')
+    preload.classList.remove('loading')
+    document.body.style.overflowY = 'auto'
+  }, 1000)
+}
+
 const menu = document.querySelector('.menu')
 
 menu.addEventListener('click', openMenu)
