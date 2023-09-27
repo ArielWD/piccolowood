@@ -462,10 +462,10 @@ template {
   align-items: center;
   justify-content: center;
 }
-.welcome__texto h2, .welcome__texto h3 {
+.welcome__texto h1, .welcome__texto h3 {
   margin: 0;
 }
-.welcome__texto h2 {
+.welcome__texto h1 {
   font-size: 3rem;
   text-transform: uppercase;
 }
@@ -481,7 +481,7 @@ template {
   .welcome__texto p {
     display: none;
   }
-  .welcome__texto h2 {
+  .welcome__texto h1 {
     font-size: 1rem;
   }
   .welcome__texto h3 {
@@ -580,7 +580,7 @@ template {
   left: 70px;
   text-align: center;
 }
-.services__texto h4 {
+.services__texto h3 {
   font-size: 1.5rem;
   margin: 1rem;
 }
@@ -599,7 +599,7 @@ template {
   .services__texto {
     position: relative;
   }
-  .services__texto h4 {
+  .services__texto h3 {
     font-size: 1rem;
   }
 }
@@ -719,7 +719,10 @@ template {
 .contact__text {
   width: 90%;
 }
-.contact__text h4 {
+.contact__text h1 {
+  text-align: center;
+}
+.contact__text h2 {
   font-size: 1.5rem;
   text-align: center;
 }
@@ -918,7 +921,7 @@ footer p a {
 .portafolio__project:hover {
   cursor: pointer;
 }
-.portafolio__project h3 {
+.portafolio__project h2 {
   font-size: 2rem;
   color: rgb(181, 141, 116);
   text-align: center;
@@ -931,13 +934,13 @@ footer p a {
   width: 100%;
 }
 @media (max-width: 775px) {
-  .portafolio__project h3 {
+  .portafolio__project h2 {
     width: 30%;
     font-size: 1.2rem;
   }
 }
 @media (max-width: 430px) {
-  .portafolio__project h3 {
+  .portafolio__project h2 {
     font-size: 1rem;
     left: -30%;
   }

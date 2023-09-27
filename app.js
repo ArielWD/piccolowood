@@ -40,7 +40,7 @@ if (portafolio) {
       project.classList.add('portafolio__project')
       project.dataset.idProyecto = valor.id
       project.innerHTML += `
-        <h3>${valor.nombre}</h3>
+        <h2>${valor.nombre}</h2>
         <img loading="lazy" src="${valor.imgs[0]}.webp" alt="${valor.nombre}">
       `
       project.addEventListener('click', getProject)
