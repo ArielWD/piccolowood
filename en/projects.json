@@ -1,0 +1,179 @@
+[
+    {
+        "id":"0",
+        "nombre":"Pleasing Living",
+        "fecha":"August 2023",
+        "ubicacion": "Buenos Aires",
+        "tipo":"Interior design and rendering",
+        "titulo":"Piccolo Wood’s own project.",
+        "descripcion":"The project was carried out with the purpose of advising a client to determine the placement of elements in the space and the materials and textures to be used in the furnishings.;;The seating was placed to enhance the host's spirit of gathering with their guests. It was sought for each seat to have different views from the others so that, along with the analysis of textures and materials, different experiences can be achieved within the same",
+        "imgs":{
+            "0":"/img/portfolio/pleasing_living/pleasing-living1",
+            "1":"/img/portfolio/pleasing_living/pleasing-living2",
+            "2":"/img/portfolio/pleasing_living/pleasing-living3",
+            "3":"/img/portfolio/pleasing_living/pleasing-living4",
+            "4":"/img/portfolio/pleasing_living/pleasing-living5",
+            "5":"/img/portfolio/pleasing_living/pleasing-living6",
+            "6":"/img/portfolio/pleasing_living/pleasing-living7",
+            "7":"/img/portfolio/pleasing_living/pleasing-living8",
+            "8":"/img/portfolio/pleasing_living/pleasing-living9",
+            "9":"/img/portfolio/pleasing_living/pleasing-living10",
+            "10":"/img/portfolio/pleasing_living/pleasing-living11"
+        }
+    },
+    {
+        "id":"1",
+        "nombre":"Y House",
+        "fecha":"May 2023",
+        "ubicacion": "Buenos Aires",
+        "tipo":"Design and Housing Proposal",
+        "titulo":"Piccolo Wood’s own project.",
+        "descripcion":"The Y House is a single-family home project that harmoniously combines functionality with a contemporary aesthetic and an intimate connection with nature. Designed to achieve the needs of an active family, it is characterized by its permeability and the presence of natural elements in its exterior, such as vegetation, wood, and water. Its strategic location, between party walls, takes advantage of the terrain orientation and promotes natural lighting.;;With a well-planned spatial layout, the ground floor houses the public area, while the upper floor features the private zone. The interior decoration draws inspiration from the Nordic style, with a neutral colour palette and warm textures.",
+        "imgs":{
+            "0":"/img/portfolio/Y-HOUSE/y-house2",
+            "1":"/img/portfolio/Y-HOUSE/y-house3",
+            "2":"/img/portfolio/Y-HOUSE/y-house4",
+            "3":"/img/portfolio/Y-HOUSE/y-house5",
+            "4":"/img/portfolio/Y-HOUSE/y-house6",
+            "5":"/img/portfolio/Y-HOUSE/y-house7",
+            "6":"/img/portfolio/Y-HOUSE/y-house8",
+            "7":"/img/portfolio/Y-HOUSE/y-house9"
+        }
+    },
+    {
+        "id":"2",
+        "nombre":"O House",
+        "fecha":"May 2023",
+        "ubicacion": "",
+        "tipo":"Design and Housing Proposal",
+        "titulo":"Piccolo Wood’s own project.",
+        "descripcion":"The O House is an underground circular housing project that harmoniously integrates with the terrain and offers well-defined interior and exterior spaces. Designed for a couple seeking tranquillity and social occasions, the house is characterized by its art deco design, with an earthy and green colour palette, and the use of materials such as exposed concrete and wood.;;The strategically located two courtyards allow for natural light and cross ventilation, creating an atmosphere of privacy and connection with nature, while the contemporary and sophisticated furniture completes the cozy and elegant ambience of the residence.",
+        "imgs":{
+            "0":"/img/portfolio/O-HOUSE/o_house1",
+            "1":"/img/portfolio/O-HOUSE/o_house2",
+            "2":"/img/portfolio/O-HOUSE/o_house3",
+            "3":"/img/portfolio/O-HOUSE/o_house4",
+            "4":"/img/portfolio/O-HOUSE/o_house5",
+            "5":"/img/portfolio/O-HOUSE/o_house6",
+            "6":"/img/portfolio/O-HOUSE/o_house7",
+            "7":"/img/portfolio/O-HOUSE/o_house8",
+            "8":"/img/portfolio/O-HOUSE/o_house9",
+            "9":"/img/portfolio/O-HOUSE/o_house10",
+            "10":"/img/portfolio/O-HOUSE/o_house11",
+            "11":"/img/portfolio/O-HOUSE/o_house12",
+            "12":"/img/portfolio/O-HOUSE/o_house13"
+        }
+    },
+    {
+        "id":"3",
+        "nombre":"Tattersall Project",
+        "fecha":"June 2023",
+        "ubicacion": "Tattersall of Palermo - Buenos Aires",
+        "tipo":"Renders",
+        "descripcion":"Renders for Arquitectos del Sur",
+        "imgs":{
+            "0":"/img/portfolio/PROYECTO_TATTERSALL/proyecto_tattersall1",
+            "1":"/img/portfolio/PROYECTO_TATTERSALL/proyecto_tattersall2",
+            "2":"/img/portfolio/PROYECTO_TATTERSALL/proyecto_tattersall3",
+            "3":"/img/portfolio/PROYECTO_TATTERSALL/proyecto_tattersall4"
+        }
+    },
+    {
+        "id":"4",
+        "nombre":"Patio House",
+        "fecha":"April 2023",
+        "ubicacion": "",
+        "tipo":"Renders",
+        "descripcion":"Renders for Gameplan Architects",
+        "imgs":{
+            "0":"/img/portfolio/CASA_PATIO/patio_house2",
+            "1":"/img/portfolio/CASA_PATIO/patio_house1",
+            "2":"/img/portfolio/CASA_PATIO/patio_house3",
+            "3":"/img/portfolio/CASA_PATIO/patio_house4",
+            "4":"/img/portfolio/CASA_PATIO/patio_house5",
+            "5":"/img/portfolio/CASA_PATIO/patio_house6",
+            "6":"/img/portfolio/CASA_PATIO/patio_house7",
+            "7":"/img/portfolio/CASA_PATIO/patio_house8",
+            "8":"/img/portfolio/CASA_PATIO/patio_house9"
+        }
+    },
+    {
+        "id":"5",
+        "nombre":"Chascomus House",
+        "fecha":"Project 2023",
+        "ubicacion": "",
+        "tipo":"Renders",
+        "descripcion":"Renders for Gameplan Architects",
+        "imgs":{
+            "0":"/img/portfolio/VIVIENDA_CHASCOMUS/chascomus3",
+            "1":"/img/portfolio/VIVIENDA_CHASCOMUS/chascomus1",
+            "2":"/img/portfolio/VIVIENDA_CHASCOMUS/chascomus2",
+            "3":"/img/portfolio/VIVIENDA_CHASCOMUS/chascomus4",
+            "4":"/img/portfolio/VIVIENDA_CHASCOMUS/chascomus5",
+            "5":"/img/portfolio/VIVIENDA_CHASCOMUS/chascomus6"
+        }
+    },
+    {
+        "id":"6",
+        "nombre":"Alpinside House",
+        "fecha":"Project 2023",
+        "ubicacion": "",
+        "tipo":"Renders",
+        "descripcion":"Renders for Gameplan Architects",
+        "imgs":{
+            "0":"/img/portfolio/CASA_ALPINSIDE/alpinside",
+            "1":"/img/portfolio/CASA_ALPINSIDE/alpinside_1",
+            "2":"/img/portfolio/CASA_ALPINSIDE/alpinside_2",
+            "3":"/img/portfolio/CASA_ALPINSIDE/alpinside_3",
+            "4":"/img/portfolio/CASA_ALPINSIDE/alpinside_4"
+        }
+    },
+    {
+        "id":"7",
+        "nombre":"Byrsa Acropolis",
+        "fecha":"January 2023",
+        "ubicacion": "",
+        "tipo":"Renders",
+        "descripcion":"Renders for Gameplan Architects",
+        "imgs":{
+            "0":"/img/portfolio/PROYECTO_BYRSA_ACROPOLIS/byrsa5",
+            "1":"/img/portfolio/PROYECTO_BYRSA_ACROPOLIS/byrsa1",
+            "2":"/img/portfolio/PROYECTO_BYRSA_ACROPOLIS/byrsa2",
+            "3":"/img/portfolio/PROYECTO_BYRSA_ACROPOLIS/byrsa3",
+            "4":"/img/portfolio/PROYECTO_BYRSA_ACROPOLIS/byrsa4",
+            "5":"/img/portfolio/PROYECTO_BYRSA_ACROPOLIS/byrsa6",
+            "6":"/img/portfolio/PROYECTO_BYRSA_ACROPOLIS/byrsa7"
+        }
+    },
+    {
+        "id":"8",
+        "nombre":"Quzhou Project",
+        "fecha":"Project 2023",
+        "ubicacion": "",
+        "tipo":"Renders",
+        "descripcion":"Renders for Gameplan Architects",
+        "imgs":{
+            "0":"/img/portfolio/PROYECTO_QUZHOU/proyecto_quzhou5",
+            "1":"/img/portfolio/PROYECTO_QUZHOU/proyecto_quzhou1",
+            "2":"/img/portfolio/PROYECTO_QUZHOU/proyecto_quzhou2",
+            "3":"/img/portfolio/PROYECTO_QUZHOU/proyecto_quzhou3",
+            "4":"/img/portfolio/PROYECTO_QUZHOU/proyecto_quzhou4"
+        }
+    },
+    {
+        "id":"9",
+        "nombre":"Walking Project",
+        "fecha":"Project 2023",
+        "ubicacion": "",
+        "tipo":"Renders",
+        "descripcion":"Renders for Gameplan Architects",
+        "imgs":{
+            "0":"/img/portfolio/PROYECTO_WALKING/walking4",
+            "1":"/img/portfolio/PROYECTO_WALKING/walking1",
+            "2":"/img/portfolio/PROYECTO_WALKING/walking2",
+            "3":"/img/portfolio/PROYECTO_WALKING/walking3",
+            "4":"/img/portfolio/PROYECTO_WALKING/walking5",
+            "5":"/img/portfolio/PROYECTO_WALKING/walking6"
+        }
+    }
+]
