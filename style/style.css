@@ -1007,7 +1007,7 @@ footer p a {
   font-size: 1.5rem;
   margin: 0;
 }
-@media (max-width: 1280px) {
+@media (max-width: 1300px) {
   .modal__info {
     line-height: 0.8;
   }
@@ -1046,7 +1046,7 @@ footer p a {
   line-height: 1.5;
   text-align: center;
 }
-@media (max-width: 1280px) {
+@media (max-width: 1300px) {
   .modal__descripcion p {
     line-height: 1;
   }
