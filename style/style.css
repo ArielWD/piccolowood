@@ -1011,6 +1011,9 @@ footer p a {
   .modal__info {
     line-height: 0.8;
   }
+  .modal__info h3 {
+    margin: 1rem;
+  }
 }
 @media (max-width: 775px) {
   .modal__info {
