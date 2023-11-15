@@ -1007,6 +1007,11 @@ footer p a {
   font-size: 1.5rem;
   margin: 0;
 }
+@media (max-width: 1280px) {
+  .modal__info {
+    line-height: 0.8;
+  }
+}
 @media (max-width: 775px) {
   .modal__info {
     width: 100%;
@@ -1040,6 +1045,11 @@ footer p a {
   font-size: 0.9rem;
   line-height: 1.5;
   text-align: center;
+}
+@media (max-width: 1280px) {
+  .modal__descripcion p {
+    line-height: 1;
+  }
 }
 @media (max-width: 775px) {
   .modal__descripcion {
