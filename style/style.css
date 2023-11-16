@@ -1276,10 +1276,6 @@ footer p a {
 @media (max-width: 775px) {
   .lang {
     top: 1rem;
-  }
-}
-@media (max-width: 430px) {
-  .lang {
     right: 0;
     width: 10rem;
   }
@@ -1313,31 +1309,17 @@ footer p a {
 }
 @media (max-width: 775px) {
   .lang__enlaces img {
-    width: 50%;
-  }
-}
-@media (max-width: 380px) {
-  .lang__enlaces img {
     width: 100%;
   }
 }
-@media (max-width: 430px) {
+@media (max-width: 775px) {
   .lang__enlaces {
     justify-content: center;
-  }
-}
-@media (max-width: 380px) {
-  .lang__enlaces {
     flex-direction: column;
     gap: 0.5rem;
   }
 }
 @media (max-width: 775px) {
-  .lang__enlace {
-    width: 20%;
-  }
-}
-@media (max-width: 380px) {
   .lang__enlace {
     width: 30%;
   }
